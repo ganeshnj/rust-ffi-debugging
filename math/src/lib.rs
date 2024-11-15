@@ -1,4 +1,3 @@
-// FFI safe add
 #[no_mangle]
 pub extern "C" fn rs_add(left: i32, right: i32) -> i32 {
     add(left, right)
