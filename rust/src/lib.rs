@@ -1,3 +1,9 @@
+// FFI safe add
+#[no_mangle]
+pub extern "C" fn rs_add(left: u64, right: u64) -> u64 {
+    add(left, right)
+}
+
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
