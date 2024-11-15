@@ -1,5 +1,5 @@
 from ctypes import cdll
-lib = cdll.LoadLibrary("/Users/ganesh.jangir/dd/rust-ffi-debugging/rust/target/debug/librust.dylib")
+lib = cdll.LoadLibrary("/Users/ganesh.jangir/dd/rust-ffi-debugging/math/target/debug/libmath.dylib")
 
 def add(a, b):
     return lib.rs_add(a, b)
