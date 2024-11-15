@@ -6,5 +6,7 @@ public class MathTests
     public void TestAdd()
     {
         Assert.That(Math.Add(2, 2), Is.EqualTo(4));
+        Assert.That(Math.Add(2, 2), Is.EqualTo(4));
+        Assert.That(Math.Add(2, 2), Is.EqualTo(4));
     }
 }
